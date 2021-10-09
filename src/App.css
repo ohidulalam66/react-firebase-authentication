@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+* {
+  font-family: 'Inconsolata', monospace;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+  font-size: 50px;
+  font-family: 'Birthstone', cursive;
+  color: #b1b5b2;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-heading {
+  font-size: 40px;
+  font-family: 'Birthstone', cursive;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  border-radius: 15px;
+  background: #FFFFFF;
+  box-shadow:  -25px -25px 50px #bfbfbf,
+             25px 25px 50px #ffffff;
 }
-
-.App-link {
-  color: #61dafb;
+.field {
+  background: #f2f2f2;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.poster {
+  width: 500px;
+}
+.icons {
+  width: 25px;
+  margin-right: 5px;
 }
